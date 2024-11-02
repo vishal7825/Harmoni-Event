@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+.img1-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .background-img1 {
+    width: 100%;
+    height: auto;
+  }
+  .signinform{
+    background-color: white;
+  }
+  .signinform h3{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .signinform label{
+    color: black;
+    text-align: center;
+  }
+  .signinform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .mb-10.text-center {
+    text-align: center;
+  }
+  
+  .form-control.small-input  {
+    max-width: 250px;
+    width: 100%; 
+    margin-bottom: 30px;
+  }
+  
+  .btn.btn-primary {
+    margin-top: 10px; 
+  }
+  .form-check-input{
+    margin-left: 20px !important;
+  }
+  .form-check-label{
+    margin-left: 10px ;
+  }
+  .signform{
+    width: 100%;
+  }
+  .forget p{
+    color: black;
+  }
+  .forget li{
+    color: black;
+    font-size: 15px;
+    list-style: none;
+
+    display: inline-block;
+  }
+  .forget li a{
+    text-decoration: none;
+    color: black;
+  }
+  .forget li a:hover{
+    color: blue;
+  }
+.que{
+  margin-left: 20px;
+}
+.option1{
+  margin-left: 10px;
+}
+.option2{
+  margin-left: 10px;
+}
+.cr{
+  font-size: 12px;
+  
+}

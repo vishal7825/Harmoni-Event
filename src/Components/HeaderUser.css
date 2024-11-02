@@ -1,0 +1,90 @@
+.usericon{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+.usericon1{
+    right: 6%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+}
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    top: 50px;
+    right: 0; 
+    background-color: white; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    z-index: 1000; 
+    min-width: 150px; 
+}
+.navbar a{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute; 
+    top: 50px;
+    right: 0; 
+    background-color: white;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    z-index: 1000; 
+    min-width: 150px;
+}
+
+.usericon1:hover .dropdown-menu, .dropdown-menu:hover {
+    display: block; 
+}
+
+.dropdown-item {
+    padding: 10px; 
+    color: black !important;
+    text-decoration: none; 
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: blue;
+}
+
+
+.dropdown-menu a {
+    display: block; 
+}
+@media (max-width: 600px) { 
+    .usericon1 span 
+    { 
+        display: none;
+    }
+    .usericon1{
+        right: 18%;
+        position:absolute;
+    }
+}
+
+@media (max-width: 400px){
+    .navbar-brand{
+        display: none;
+    }
+    .usericon1{
+        right: 2%;
+        position: absolute;
+    }
+}
+@media (max-width:991px){
+    .usericon1 span 
+    { 
+        display: none;
+    }
+    .usericon1{
+        right: 16%;
+        position: absolute;
+    }
+}

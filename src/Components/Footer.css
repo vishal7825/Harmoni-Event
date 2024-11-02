@@ -1,0 +1,56 @@
+.footer{
+    background-image: linear-gradient(to right, #030567 0%, #400291 100%);
+}
+.links ul {
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+}
+.links h5{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.terms ul {
+    list-style: none;
+}
+.terms ul li a{
+    text-decoration: none;
+}
+.terms h5{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.get ul {
+    list-style: none;
+}
+.get ul li a{
+    text-decoration: none;
+}
+.get h5{
+    font-size: 15px;
+    padding-left: 30px;
+}
+.copy{
+    padding-top: 70px;
+}
+.douwant h1{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: 600;
+}
+.early button{
+    margin-top: 50px;
+    border-radius: 0px;
+    margin-bottom: 70px;
+}
+.logo19 img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}

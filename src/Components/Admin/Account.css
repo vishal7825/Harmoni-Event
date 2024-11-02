@@ -1,0 +1,79 @@
+.acdetails{
+    width: 100%;
+    background-color: black;
+}
+.mainhead{
+    padding-top: 4px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.acdetails1 a{
+    text-decoration: none;
+}
+.changeacd{
+    background-color: rgb(60, 60, 183);
+}
+.acdetails {
+    display: flex;                
+    justify-content: center;    
+    align-items: center;         
+}
+.link-container {
+    display: flex;              
+    justify-content: space-between; 
+    margin-bottom: 20px;         
+}
+
+.acdetails1 {
+    height: 550px;
+    background-color: rgb(46, 4, 85);
+    text-align: center;         
+    max-width: 500px;         
+    width: 100%;                 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);              
+    border-radius: 8px;     
+}
+.usericon2{
+    width: 50px;
+    height: 50px;
+}
+.changedt a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    gap: 5px;
+
+}
+.changedt {
+    display: flex;               
+    flex-direction: column;    
+    align-items: flex-start;     
+    margin-top: 10px;          
+}
+
+
+.changedt-item {
+    display: flex;             
+    justify-content: space-between;
+    width: 100%;              
+    margin-bottom: 10px;        
+}
+
+.edit-icon {
+    color: white;            
+    margin-left: 10px;         
+}
+
+
+
+@media (max-width: 600px) {
+    .link-container {
+        flex-direction: column;     
+        align-items: flex-start;   
+    }
+    
+    .link-container a {
+        margin-bottom: 10px;        
+    }
+}

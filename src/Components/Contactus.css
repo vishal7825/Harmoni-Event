@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  .hero2 {
+    
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    color:#fff;
+}
+.hero2 img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero2 .container {
+    position: relative; 
+    z-index: 3;
+}
+
+.hero2 .container h6{
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hero2 .container p{
+    color: white;
+    width: 50%;
+    font-size: 15px;
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  .hero2 .container h3 span{
+    padding-left: 5px; 
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .hero2 .container h3{ 
+    color: rgb(255, 166, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .hero2 .container h2
+  {
+    text-transform: uppercase;
+  }
+.links{
+    padding-bottom: 40px;
+}
+.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .list-inline-item {
+    position: relative;
+  }
+  
+  .list-inline-item::after {
+    content: "|";
+    color: white; 
+    margin-left: 10px; 
+  }
+  
+  .list-inline-item:last-child::after {
+    content: "";
+  }
+  
+  .img-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: auto;
+  }
+  .contactform{
+    background-color: white;
+  }
+  .contactform h3{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .mb-4.text-center {
+    text-align: center;
+  }
+  
+  .form-control.small-input {
+    max-width: 250px;
+    width: 100%; 
+    margin: 40px; 
+  }
+  
+  .btn.btn-primary {
+    margin-top: 10px; 
+  }
+  .heading{
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 2px;
+    background-color: white;
+  }
+  .heading h3{
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
+  }

@@ -1,0 +1,133 @@
+*{  
+    padding: 0;
+    margin: 0;
+}
+.hero2 {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    color:#fff;
+}
+.hero2 img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero2 .container {
+    position: relative; 
+    z-index: 3;
+}
+
+.hero2 .container h6{
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hero2 .container p{
+    color: white;
+    width: 50%;
+    font-size: 15px;
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  .hero2 .container h3{
+    color: rgb(255, 166, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .hero2 .container h2
+  {
+    text-transform: uppercase;
+  }
+  .card-body{
+    background-color: black;
+  }
+  .card-title, .card-text{
+    color: #fff;
+  }
+.gallery{
+    background-image: linear-gradient(to top, #303dd0 0%, #330867 100%);
+    color: transparent;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pic1{
+    padding: 2px;
+}
+.heading2{
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 2px;
+    background-color: white;
+  }
+  .heading2 h3{
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
+  }
+  .hero3 {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    color:#fff;
+}
+.hero3 img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero3 .container {
+    position: relative; 
+    z-index: 3;
+}
+.hero3 h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.boffer{
+    width: 70%;
+    float: left;
+}
+.boffbtn{
+    float: left;
+    width: 30%;
+}
+.makebtn{
+    width: 70%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+}
+.makebtn button{
+    background-color: white;
+    color: rgb(255, 166, 0);
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
